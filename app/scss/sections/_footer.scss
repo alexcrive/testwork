@@ -62,7 +62,6 @@ input[type="email"] {
 	border: 1px solid #d4d1d1;
 	background-color: #ffffff;
 	outline: none;
-	
 	color: #979797;
 	font-size: 16px;
 	font-weight: 300;
@@ -72,6 +71,7 @@ input[type="email"] {
 	@media(min-width: 768px) {
 		width: 70%;
 		border-right: 0;	
+		margin-left: 3px;
 	}
 }
 input[type="email"]::-webkit-input-placeholder {
@@ -107,10 +107,18 @@ input[type="button"] {
 	font-weight: 700;
 	letter-spacing: 2px;
 	margin-top: 15px;
+	width: 100%;
+	@include transit(0.4s);
+	&:hover, &:active, &:focus {
+		background-color: $pj_gray;
+		opacity: 0.8;
+		color: #d8429e;
+		
+	}
 	@media(min-width: 576px) {
 		margin-top: 0;
 		padding: 12px 15px 9px;
-		width: 100%;
+		width: auto;
 		border-radius: 0 3px 3px 0;
 	}
 	@media(min-width: 768px) {	

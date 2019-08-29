@@ -257,6 +257,23 @@ a {
   color: white;
 }
 
+.header__list__item___link img {
+  z-index: 1;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.header__list__item___link img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 .header__list__item__cart {
   position: relative;
   width: 35px;
@@ -264,6 +281,12 @@ a {
 }
 
 .header__list__item__cart--count {
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  z-index: 2;
   position: absolute;
   right: 0px;
   top: 0px;
@@ -704,6 +727,7 @@ input[type="email"] {
   input[type="email"] {
     width: 70%;
     border-right: 0;
+    margin-left: 3px;
   }
 }
 
@@ -744,13 +768,25 @@ input[type="button"] {
   font-weight: 700;
   letter-spacing: 2px;
   margin-top: 15px;
+  width: 100%;
+  -webkit-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  -ms-transition: all 0.4s ease-in;
+  -o-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+input[type="button"]:hover, input[type="button"]:active, input[type="button"]:focus {
+  background-color: #212212;
+  opacity: 0.8;
+  color: #d8429e;
 }
 
 @media (min-width: 576px) {
   input[type="button"] {
     margin-top: 0;
     padding: 12px 15px 9px;
-    width: 100%;
+    width: auto;
     border-radius: 0 3px 3px 0;
   }
 }
