@@ -1,0 +1,134 @@
+.main {
+	padding-bottom: 37px;
+	text-align: center;
+	@media(min-width: 1400px) {
+		padding-bottom: 59px;
+	}
+	@media(min-width: 768px) {
+		padding-bottom: 10px;
+	}
+}
+.main--top-row {
+	padding-bottom: 40px;
+	@media(min-width: 1400px) {
+		padding-bottom: 59px;
+	}
+}
+.main__title {
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.main__title__black {
+	color: black;
+}
+.main__title__brown {
+	color: #9e8b6b;
+}
+.main__desc {
+	color: $pj_gray;
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 19px;
+	@media(min-width: 768px) {
+		font-size: 15px;
+	}
+}
+.main__more {
+	color: $pj_gray;
+	font-size: 14px;
+	font-weight: 300;
+	text-decoration: underline;
+	margin-bottom: 59px;
+	&:hover {
+		color: #d8429e;
+	}
+}
+.main__block-1 {
+	background-color: #ff9595;
+	&:hover {
+		background-color: darken(#ff9595, 25%);
+	}
+}
+.main__block-2 {
+	background-color: #95b7ff;
+	&:hover {
+		background-color: darken(#95b7ff, 25%);
+	}
+}
+.main__block-3 {
+	background-color: #95ffce;
+	&:hover {
+		background-color: darken(#95ffce, 25%);
+	}
+}
+.main__block-4 {
+	background-color: #c995ff;
+	&:hover {
+		background-color: darken(#c995ff, 25%);
+	}
+}
+.main__block-5 {
+	background-color: #ffeb95;
+	&:hover {
+		background-color: darken(#ffeb95, 25%);
+	}
+}
+.main__block {
+	height: 330px;
+	margin-top: 0;
+	margin-bottom: 2px;
+	@media(min-width: 1400) {
+		height: 558px;
+		margin-top: 0;
+	}
+	@media(min-width: 768px) {
+		height: 360px;
+		margin-top: 7px;
+	}
+}
+.main__block--big {
+	height: 338px;
+	@media(min-width: 1400) {
+		height: 560px;
+	}
+	@media(min-width: 768px) {
+		height: 330px;
+	}
+}
+.main--center-row {
+	margin-bottom: 40px;
+	@media(min-width: 1400px) {
+		margin-bottom: 59px;
+	}
+}
+.slider-bot {
+}
+.main__about-us {
+		
+	text-align: center;
+	@media(min-width: 1400px) {
+		padding: 0 32px;
+	}
+	@media(min-width: 768px) {
+		padding-right: 32px;
+		padding-left: 32px;
+		padding-bottom: 38px;
+	}
+}
+
+.main__about-us__title {
+	color: #9e8b6b;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: 13px;
+}
+.main__about-us__desc {
+	color: $pj_gray;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+}
