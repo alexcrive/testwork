@@ -19,6 +19,9 @@ p {
 	color: #777;
 }
 
+a {
+	@include transit();
+}
 
 /*==========  Desktop First Method  ==========*/
 
