@@ -27,17 +27,20 @@ $(document).ready(function(){
 	});
 //for main > blocks
 	$(window).resize(function() {
+		let mainCenterContainer= $('.container--for-table');
+		let cointainer = 'container';
+		let containerFluid = 'container-fluid';
+
 		if ( $(window).width() < 1200 ) {
-			let mainCenterContainer= $('.container--for-table');
-			let cointainer = 'container';
-			let containerFluid = 'container-fluid';
 			$(mainCenterContainer).removeClass(cointainer);
 			$(mainCenterContainer).addClass(containerFluid);
-			
+		} else {
+			$(mainCenterContainer).removeClass(containerFluid);
+			$(mainCenterContainer).addClass(cointainer);
 		}
 	});
 
-//for menu container--for-menu
+//for menu 
 
 	$('.menu__button').click(function() {
 		$('.menu__list').slideToggle();
