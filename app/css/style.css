@@ -182,15 +182,15 @@ p {
   font-weight: 300;
 }
 
-@media (min-width: 1400px) {
-  .header__phone {
-    margin-left: 30px;
-  }
-}
-
 @media (min-width: 768px) {
   .header__phone {
     margin-left: 25px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .header__phone {
+    margin-left: 30px;
   }
 }
 
@@ -227,15 +227,15 @@ p {
   margin-right: 18px;
 }
 
-@media (min-width: 1400px) {
-  .header__list__item {
-    margin-right: 30px;
-  }
-}
-
 @media (min-width: 768px) {
   .header__list__item {
     margin-right: 25px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .header__list__item {
+    margin-right: 30px;
   }
 }
 
@@ -324,18 +324,6 @@ p {
   background-color: white;
 }
 
-@media (min-width: 1400px) {
-  .menu__list__item {
-    display: inline-block;
-    margin-right: 42px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  .menu__list__item:last-child {
-    margin-right: 0;
-  }
-}
-
 @media (min-width: 768px) {
   .menu__list__item {
     display: inline-block;
@@ -346,6 +334,18 @@ p {
   }
   .menu__list__item:hover {
     background-color: 255, 255, 255;
+  }
+}
+
+@media (min-width: 1400px) {
+  .menu__list__item {
+    display: inline-block;
+    margin-right: 42px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .menu__list__item:last-child {
+    margin-right: 0;
   }
 }
 
@@ -400,15 +400,15 @@ p {
   background-color: #e1e0fe;
 }
 
-@media (min-width: 992px) {
-  .slide {
-    height: 540px;
-  }
-}
-
 @media (min-width: 768px) {
   .slide {
     height: 420px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .slide {
+    height: 540px;
   }
 }
 
@@ -417,15 +417,15 @@ p {
   text-align: center;
 }
 
-@media (min-width: 1400px) {
-  .main {
-    padding-bottom: 59px;
-  }
-}
-
 @media (min-width: 768px) {
   .main {
     padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .main {
+    padding-bottom: 59px;
   }
 }
 
@@ -525,33 +525,34 @@ p {
   margin-bottom: 2px;
 }
 
-@media (min-width: 1400) {
-  .main__block {
-    height: 558px;
-    margin-top: 0;
-  }
-}
-
 @media (min-width: 768px) {
   .main__block {
     height: 360px;
-    margin-top: 7px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .main__block {
+    height: 558px;
   }
 }
 
 .main__block--big {
   height: 338px;
-}
-
-@media (min-width: 1400) {
-  .main__block--big {
-    height: 560px;
-  }
+  margin-top: 0;
 }
 
 @media (min-width: 768px) {
   .main__block--big {
     height: 330px;
+    margin-top: 7px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main__block--big {
+    height: 560px;
   }
 }
 
@@ -569,17 +570,17 @@ p {
   text-align: center;
 }
 
-@media (min-width: 1400px) {
-  .main__about-us {
-    padding: 0 32px;
-  }
-}
-
 @media (min-width: 768px) {
   .main__about-us {
     padding-right: 32px;
     padding-left: 32px;
     padding-bottom: 38px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .main__about-us {
+    padding: 0 32px;
   }
 }
 
@@ -646,15 +647,15 @@ p {
   margin-top: 20px;
 }
 
-@media (min-width: 1400px) {
-  .footer__form {
-    padding-left: 62px;
-  }
-}
-
 @media (min-width: 768px) {
   .footer__form {
     margin-top: 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .footer__form {
+    padding-left: 62px;
   }
 }
 
@@ -679,16 +680,16 @@ input[type="email"] {
   font-weight: 300;
 }
 
+@media (min-width: 576px) {
+  input[type="email"] {
+    border-radius: 3px 0 0 3px;
+  }
+}
+
 @media (min-width: 768px) {
   input[type="email"] {
     width: 70%;
     border-right: 0;
-  }
-}
-
-@media (min-width: 576px) {
-  input[type="email"] {
-    border-radius: 3px 0 0 3px;
   }
 }
 
@@ -731,18 +732,18 @@ input[type="button"] {
   margin-top: 15px;
 }
 
-@media (min-width: 768px) {
-  input[type="button"] {
-    margin-left: -4px;
-  }
-}
-
 @media (min-width: 576px) {
   input[type="button"] {
     margin-top: 0;
     padding: 12px 15px 9px;
     width: 100%;
     border-radius: 0 3px 3px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  input[type="button"] {
+    margin-left: -4px;
   }
 }
 
@@ -789,14 +790,14 @@ input[type=checkbox] + .footer__form__check__agree {
   width: 18px;
   height: 18px;
   background-image: url(../img/icons/check_field.svg);
-  left: -25px;
+  left: -27px;
   top: 11px;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 576px) {
   .checkbox + label:before {
-    left: -31px;
-    top: 0;
+    left: -28px;
+    top: 3px;
   }
 }
 
@@ -807,14 +808,14 @@ input[type=checkbox]:checked + label:after {
   width: 12px;
   height: 10px;
   position: absolute;
-  left: -22px;
   top: 15px;
+  left: -24px;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 576px) {
   input[type=checkbox]:checked + label:after {
-    top: 4px;
-    left: -28px;
+    top: 8px;
+    left: -25px;
   }
 }
 

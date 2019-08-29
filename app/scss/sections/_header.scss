@@ -13,11 +13,11 @@
 	color: $pj_gray;
 	font-size: 17px;
 	font-weight: 300;
-	@media(min-width: 1400px) {
-		margin-left: 30px;
-	}
 	@media(min-width: 768px) {
 		margin-left: 25px;
+	}
+	@media(min-width: 1400px) {
+		margin-left: 30px;
 	}
 }
 .header__logo {
@@ -47,12 +47,13 @@
 	list-style: none;
 	display: inline-block;
 	margin-right: 18px;
-	@media(min-width: 1400px) {
-		margin-right: 30px;
-	}
 	@media(min-width: 768px) {
 		margin-right: 25px;
 	}
+	@media(min-width: 1400px) {
+		margin-right: 30px;
+	}
+	
 }
 .header__list__item___link {
 	text-decoration: none;

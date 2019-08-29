@@ -39,12 +39,13 @@
 	position: relative;
 	padding-left: 0;
 	margin-top: 20px;
-	@media(min-width: 1400px) {
-		padding-left: 62px;
-	}
 	@media(min-width: 768px) {
 		margin-top: 0;
 	}
+	@media(min-width: 1400px) {
+		padding-left: 62px;
+	}
+	
 }
 .footer__desc {
 	color: #343434;
@@ -65,12 +66,12 @@ input[type="email"] {
 	color: #979797;
 	font-size: 16px;
 	font-weight: 300;
+	@media(min-width: 576px) {
+		border-radius: 3px 0 0 3px;
+	}
 	@media(min-width: 768px) {
 		width: 70%;
 		border-right: 0;	
-	}
-	@media(min-width: 576px) {
-		border-radius: 3px 0 0 3px;
 	}
 }
 input[type="email"]::-webkit-input-placeholder {
@@ -106,16 +107,15 @@ input[type="button"] {
 	font-weight: 700;
 	letter-spacing: 2px;
 	margin-top: 15px;
-	@media(min-width: 768px) {	
-		margin-left: -4px;	
-	}
 	@media(min-width: 576px) {
 		margin-top: 0;
 		padding: 12px 15px 9px;
 		width: 100%;
 		border-radius: 0 3px 3px 0;
 	}
-	
+	@media(min-width: 768px) {	
+		margin-left: -4px;	
+	}
 }
 
 .footer__form__check {
@@ -157,11 +157,12 @@ input[type=checkbox]+ .footer__form__check__agree {
 	height: 18px;
     background-image: url(../img/icons/check_field.svg);
     
-    left: -25px;
+    left: -27px;
     top: 11px;
-	@media(min-width: 376px) {
-		left: -31px;
-		top: 0;
+
+	@media(min-width: 576px) {
+		left: -28px;
+    	top: 3px;
 	}
 }
 
@@ -173,10 +174,11 @@ input[type=checkbox]:checked + label:after {
 	height: 10px;
 	position: absolute;
 	
-	left: -22px;
-    top: 15px;
-	@media(min-width: 376px) {
-		top: 4px;
-		left: -28px;
+	top: 15px;
+	left: -24px;
+
+	@media(min-width: 576px) {
+		top: 8px;
+		left: -25px;
 	}
 }
