@@ -332,22 +332,23 @@
 				<div class="footer__title">
 					ПРИСОЕДИНЯЙТЕСЬ К НАМ!
 				</div>
-				<div class="footer__desc d-none d-sm-block">
+				<div class="footer__desc d-none d-md-block">
 					Будьте в курсе новых поступлений, акций и распродаж.
 				</div>
-				<div class="footer__desc d-block d-sm-none">
+				<div class="footer__desc d-block d-md-none">
 					Подпишитесь на нашу рассылку и получайте информацию о самых новых поступлениях, акциях и распродажах.
 				</div>
 				<div class="row">
-					<input type="email" placeholder="Введите ваш email" class="col-sm-8">
-				<input type="button" value="ПОДПИСАТЬСЯ" class="col-sm-4 d-none d-sm-block">
+					<input type="email" placeholder="Введите ваш email" class="col-12 col-md-8">
+					<input type="button" value="ПОДПИСАТЬСЯ" class="col-12 order-2 col-md-4">
+				<!-- <input type="button" value="ПОДПИСАТЬСЯ" class="col-sm-4 d-none d-sm-block"> -->
+					<div class="col-12 order-1 footer__form__check">
+						<input type="checkbox" id="agree" name="agree" class="checkbox">
+							<label for="agree" class="footer__form__check__agree">Я даю согласие на <u>обработку</u> персональных данных</label>
+					</div>
 				</div>
 				
-				<div class="footer__form__check">
-					<input type="checkbox" id="agree" name="agree" class="checkbox">
-						<label for="agree" class="footer__form__check__agree">Я даю согласие на <u>обработку</u> персональных данных</label>
-				</div>
-				<input type="button" value="ПОДПИСАТЬСЯ" class="d-block d-sm-none">
+				<!-- <input type="button" value="ПОДПИСАТЬСЯ" class="d-block d-sm-none"> -->
 			</form>
 			<div class="footer__line-form"></div>
 		</div>
